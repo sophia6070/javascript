@@ -55,3 +55,18 @@ console.log(user)
 const num = 100
 const width = 10.5
 console.log(`값은 ${num}이고, 타입은 ${typeof num}입니다.`)
+
+const a = 1 / 0
+const b = -25 / 0
+const c = 'html' / 10
+
+console.log(a)
+console.log(b)
+console.log(c)
+
+//string
+const firstname = 'John'
+const lastname = 'snow'
+const fullname = firstname + lastname
+console.log(fullname)
+console.log(`${firstname} ${lastname}`)
