@@ -7,28 +7,28 @@
 // -복수로 생성이 가능하다
 // -여기에 실제 데이터가 존재한다.
 
-1. class 선언
+// 1. class 선언
 class Car {
-  constructor(name, color) {
-    this.name = name
-    this.color = color
-  }
+    constructor(name, color) {
+        this.name = name
+        this.color = color
+    }
 
-  start() {
-    console.log(`${this.name} is start!!`)
-  }
+    start() {
+        console.log(`${this.name} is start!!`)
+    }
 
-  stop() {
-    console.log(`${this.name} is stoped~~~~~~`)
-  }
+    stop() {
+        console.log(`${this.name} is stoped~~~~~~`)
+    }
 }
 
 const myCar = new Car('sonata', 'white')
 console.log(myCar.name)
 console.log(myCar.color)
-console.start()
-console.stop()
+myCar.start()
+myCar.stop()
 
 const oldCar = new Car('pony', 'red')
-oldcar.start()
-oldcar.stop()
+oldCar.start()
+oldCar.stop()
