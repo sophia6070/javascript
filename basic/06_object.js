@@ -26,7 +26,7 @@ const user = {
         console.log(this)
         this.works.forEach((work) => {
             console.log(
-                `${work.id}, ${work.title}, ${work.price}원,좋아요(${work.like})`
+                `${work.id}. ${work.title}, ${work.price}원,좋아요(${work.like})`
             )
         })
     },
