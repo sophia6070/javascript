@@ -8,9 +8,9 @@ async function getWhather(lat, lon) {
 
   const response = await fetch(url)
   const data = await response.json()
-  console.log(data)
+  // console.log(data)
 
-  weatehr.innerHTML = `${data.main.temp}`
+  weatehr.innerHTML = `${data.main.temp}°C, ${data.name}`
 }
 
 function success(position) {
